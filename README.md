@@ -172,7 +172,7 @@ Activate the workflow
 
 Get Webhook URL
 
-https://your-n8n.railway.app/webhook/contact-form
+[https://your-n8n.railway.app/webhook/contact-form](https://primary-production-3d85.up.railway.app/webhook/contact-form)
 📖 Usage
 Frontend Integration
 typescript// app/api/contact/route.ts
@@ -188,7 +188,7 @@ export async function POST(req: Request) {
   return Response.json({ success: true });
 }
 cURL Test
-bashcurl -X POST https://your-n8n.railway.app/webhook/contact-form \
+bashcurl -X POST [https://your-n8n.railway.app/webhook/contact-form](https://primary-production-3d85.up.railway.app/webhook/contact-form) \
   -H "Content-Type: application/json" \
   -d '{
     "name": "John Doe",
